@@ -1,0 +1,19 @@
+# Core Framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.5.0
+pydantic-settings>=2.1.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# ASR
+openai-whisper>=20231117
+
+# Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Utilities
+python-multipart>=0.0.6
+

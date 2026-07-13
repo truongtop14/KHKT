@@ -267,8 +267,8 @@ class AudioFeedbackApp:
     def run_logic(self):
         try:
             if self.model is None:
-                print("⏳ Lần đầu chạy: Đang nạp mô hình Whisper (Medium.en)...")
-                self.model = whisper.load_model("medium.en")
+                print("⏳ Lần đầu chạy: Đang nạp mô hình Whisper (small.en)...")
+                self.model = whisper.load_model("small.en")
                 print("✅ Tải mô hình thành công!\n")
 
             csv_path = "data/transcript.csv"
